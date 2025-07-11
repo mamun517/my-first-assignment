@@ -4,7 +4,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* inter css style */
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 /* shared style */
 .btn-primary {
@@ -26,7 +32,7 @@
    margin: 0 auto;
    padding: 20px 30px;
  }
- div h3 {
+ .head-sub-title {
     font-size: 34px;
     color: rgba(78, 71, 255, 1);
     width: 99px;
@@ -54,11 +60,11 @@
  /* first section title */
  .first-section-title{
    display: flex;
-   margin: 10px 30px;
-   margin-top: 50px;
-   padding:0 auto;
    justify-content: space-between;
    align-items: center;
+   margin: 0 auto;
+   margin-top: 50px;
+   
    max-width: 1140px;
    height: 328px;
  }
@@ -71,8 +77,46 @@
    border-radius: 48px;
    height: 328px;
    width: 403px;
+   
  }
  .first-section-subtitle {
    height: 200px;
    width: 520px;
+   
+ }
+
+ /* second section title */
+ .second-section-title {
+   background-color: darkgray;
+   margin-top: 30px;
+   border-radius: 15px;
+   margin: 0 auto;
+   max-width: 1140px;
+   
+   
+ }
+ .second-description{
+   color: rgba(37, 36, 50, 1);
+   font-size: 38px;
+   font-weight: 700; 
+  text-align: center;
+  
+ 
+ }
+ .second-sub-title {
+   display: flex;
+   gap: 24px;
+   justify-content: space-around;
+   line-height: 0%;
+ }
+ .second-title {
+ color: rgba(78, 71, 255, 1);
+ font-size: 80px;
+ font-weight: bold;
+ }
+ .second-paragraph {
+   color: rgba(0, 0, 0, 0.5);
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
  }
