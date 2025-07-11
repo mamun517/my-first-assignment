@@ -187,10 +187,11 @@
  }
 /* footer second style */
  .footer-second-title {
-   max-width: 1140px;
+   background-color: whitesmoke;
+   /* max-width: 1140px; */
    margin-top: 50px;
   text-align: center;
-    
+  margin: 0 auto;   
  }
 
  .footer-second-description {
